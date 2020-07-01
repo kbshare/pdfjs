@@ -1,7 +1,12 @@
 # pdfjs
+
 iOS加载pdf,显示电子签章
 删减版是删除了图片,和一下无用资源
 完整版的, 可根据需求自行修改
+
+具体使用也可见简书
+https://www.jianshu.com/p/b8d28d0d8408
+
 项目中需要显示订单合同PDF文件。正常情况下，加载pdf文件直接通过UIWebView或者WKWebView就可以。不过实际情况中，PDF文件WKWebview可以在iOS12之后可以正常展示电子签章,但是在12之前无法正常展示.
 方案: 使用pdf.js加载
 
